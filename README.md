@@ -86,7 +86,8 @@ Finally give permissions and run
 chmod 755 enable_my
 ./enable_my
 ```
-# ready, you can now execute commands like ./getcoins ./inventory ./orderbook ./buy and so on
+
+Ready, you can now execute commands like ./getcoins ./inventory ./orderbook ./buy and so on
 
 
 ## License
