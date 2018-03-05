@@ -6,10 +6,15 @@ Here is a simple installation script for BarterDEX with only electrum coins, no 
 ## nanomsg
 
 cd
+
 git clone https://github.com/nanomsg/nanomsg
+
 cmake . -DNN_TESTS=OFF -DNN_ENABLE_DOC=OFF
+
 make -j4
-sudo make install 
+
+sudo make install
+
 sudo ldconfig
 
 ## marketmaker
