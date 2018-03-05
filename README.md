@@ -20,17 +20,37 @@ sudo ldconfig
 
 ## marketmaker
 
-What things you need to install the software and how to install them
+cd
 
-```
-Give examples
-```
+git clone https://github.com/jl777/SuperNET
 
-### Installing
+cd SuperNET/iguana
 
-A step by step series of examples that tell you have to get a development env running
+git branch spvdex
 
-Say what the step will be
+git checkout spvdex
+
+cd exchanges
+
+./install
+
+cd ../dexscripts
+
+echo "export passphrase=\"`head -c 32 /dev/urandom | base64`\"" > passphrase
+
+chmod 0600 passphrase
+
+./client 
+
+(now a client should be running)
+
+## In a new terminal
+
+cd ~/SuperNET/iguana/dexscripts
+
+./setpassphrase
+
+()
 
 ```
 Give the example
