@@ -4,13 +4,15 @@ From https://support.supernet.org/support/solutions/articles/29000016256-komodo-
 
 Here is a simple installation script for BarterDEX with only electrum coins, no wallets and no blockchains needed.
 
-## install nanomsg
+## Install nanomsg
 
 
 ```
 cd
 
-git clone https://github.com/nanomsg/nanomsg
+git clone https://github.com/nanomsg/
+
+cd nanomsg
 
 cmake . -DNN_TESTS=OFF -DNN_ENABLE_DOC=OFF
 
@@ -23,8 +25,7 @@ sudo ldconfig
 ```
 
 
-
-## install marketmaker 
+## Install marketmaker 
 
 ```
 cd
