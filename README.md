@@ -26,6 +26,7 @@ sudo ldconfig
 
 ## marketmaker
 
+```
 cd
 
 git clone https://github.com/jl777/SuperNET
@@ -46,7 +47,8 @@ echo "export passphrase=\"`head -c 32 /dev/urandom | base64`\"" > passphrase
 
 chmod 0600 passphrase
 
-./client 
+./client
+``` 
 
 (now a client should be running)
 
