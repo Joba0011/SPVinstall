@@ -1,12 +1,18 @@
-# Project Title
+# SPV Install
 
-One Paragraph of project description goes here
+From https://support.supernet.org/support/solutions/articles/29000016256-komodo-spv-install used for Komodo's fork Safecoin.
+Here is a simple installation script for BarterDEX with only electrum coins, no wallets and no blockchains needed.
 
-## Getting Started
+## nanomsg
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+cd
+git clone https://github.com/nanomsg/nanomsg
+cmake . -DNN_TESTS=OFF -DNN_ENABLE_DOC=OFF
+make -j4
+sudo make install 
+sudo ldconfig
 
-### Prerequisites
+## marketmaker
 
 What things you need to install the software and how to install them
 
