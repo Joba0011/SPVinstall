@@ -1,6 +1,7 @@
 # SPV Install
 
 From https://support.supernet.org/support/solutions/articles/29000016256-komodo-spv-install used for Komodo's fork Safecoin.
+
 Here is a simple installation script for BarterDEX with only electrum coins, no wallets and no blockchains needed.
 
 ## nanomsg
