@@ -69,7 +69,7 @@ Export the pass
 export userpass="passfromjsonfile"
 
 ```
-Copy data from http://pad.supernet.org/electrum-servers 
+Copy all the data from http://pad.supernet.org/electrum-servers 
 
 ```
 sudo nano enable_my
@@ -91,7 +91,6 @@ chmod 755 enable_my
 Ready, you can now execute commands like ./getcoins ./inventory ./orderbook ./buy and so on
 
 
-## License
 
  
 
