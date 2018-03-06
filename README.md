@@ -66,7 +66,7 @@ A json file should be opened, check userpass and copy it
 Export the pass
 
 ```
-$ export userpass = "passfromjsonfile"
+export userpass="passfromjsonfile"
 
 ```
 Copy data from http://pad.supernet.org/electrum-servers 
